@@ -8,7 +8,7 @@ import Features from '@/components/features'
 import Newsletter from '@/components/newsletter'
 import Zigzag from '@/components/zigzag'
 import Steps from '@/components/steps'
-import Pricing from '@/components/Pricing'
+import Pricing from '@/components/pricing'
 import Testimonials from '@/components/testimonials'
 
 export default function Home() {
