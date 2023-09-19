@@ -1,7 +1,9 @@
+"use client"
 import Image from 'next/image';
 
 import { IconArrowDown, IconCheck } from '@tabler/icons-react';
-
+import Lottie from "lottie-react";
+import lottie3 from "../anim/lottie3.json";
 
 const Steps = () => {
 // Steps data
@@ -80,7 +82,7 @@ const stepsData = {
             ))}
         </div>
         <div className="relative">
-          {image && (
+          {/* {image && (
             <Image
               src={image.src}
               width={400}
@@ -88,7 +90,9 @@ const stepsData = {
               alt={image.alt}
               className="inset-0 w-full rounded-md bg-gray-500 object-cover object-top shadow-lg dark:bg-slate-700 md:absolute md:h-full"
             />
-          )}
+          )} */}
+
+<Lottie className=' ' animationData={lottie3} loop={true} />
         </div>
       </div>
     </section>
